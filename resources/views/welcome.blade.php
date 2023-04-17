@@ -15,30 +15,34 @@
 
 </head>
 
-<body>
+<body class="bg-warning bg-gradient">
 
-    <main class="bg-light">
+    <main>
         <div class="container">
-            <h1 class="text-center py-5">
+            <h1 class="text-center py-5 fs-bold text-uppercase">
                 I vostri fumetti preferiti
             </h1>
         </div>
 
         <div class="container">
             <div class="row">
-                <ul >
-                    <li class="text-decoration-none"> 
+                <ul class="fs-5 d-flex justify-content-around">
+                    <li> 
                         <a href="{{route('comics.index')}}">
                             Negozio fumetti
                         </a>
                     </li>
-                    <li class="text-decoration-none">
+                    <li>
                         <a href="{{route('comics.create')}}">
-                            Cerca un fumetto
+                            Aggiungi un fumetto
                         </a>
                     </li>
                 </ul>
             </div>
+        </div>
+
+        <div class="text-center py-3">
+            <img class="main-img rounded-circle" src="/marvel-fresh-start.jpg" alt="">
         </div>
     </main>
 
