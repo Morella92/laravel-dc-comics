@@ -22,7 +22,7 @@
             <td>{{ $comic->title }}</td>
             <td>{{ $comic->description }}</td>
             <td><img src="{{ $comic->thumb }}" alt="" width="100"></td>
-            <td>{{ $comic->price }}</td>
+            <td class="price">{{ $comic->price }}</td>
             <td>{{ $comic->series }}</td>
             <td>{{ $comic->sale_date }}</td>
             <td>{{ $comic->type }}</td>
