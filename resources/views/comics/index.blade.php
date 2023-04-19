@@ -8,7 +8,7 @@
         <tr>
           <th>Titolo</th>
           <th>Descrizione</th>
-          <!-- <th>Anteprima</th> -->
+          <th>Anteprima</th>
           <th>Prezzo</th>
           <th>Serie</th>
           <th>Data di uscita</th>
@@ -22,7 +22,7 @@
           <tr class="border">
             <td class="px-4">{{ $comic->title }}</td>
             <td class="p-4">{{ $comic->description }}</td>
-            <!-- <td><img src="{{ $comic->thumb }}" alt="" width="100"></td> -->
+            <td><img src="{{ $comic->thumb }}" alt="" width="100"></td>
             <td class="price px-4">{{ $comic->price }}</td>
             <td>{{ $comic->series }}</td>
             <td class="px-4">{{ $comic->sale_date }}</td>
